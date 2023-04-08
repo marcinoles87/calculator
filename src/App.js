@@ -8,14 +8,13 @@ function App() {
   let [value , setValue] = useState()
 
   setValue = () =>{
-    value = 0
+    value = value
   }
 
-  console.log(value)
 
   return (
     <div className="App">
-      <Input></Input>
+      <Input value={value}></Input>
       <Button value={1} setValue={setValue}></Button>
       <Button value={2} setValue={setValue}></Button>
       <Button value={3} setValue={setValue}></Button>
