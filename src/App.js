@@ -7,10 +7,9 @@ function App() {
 
   let [value , setValue] = useState()
 
-  setValue = () =>{
-    value = value
-  }
+ 
 
+  console.log(value)
 
   return (
     <div className="App">

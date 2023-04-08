@@ -6,20 +6,20 @@ export default function Input(props) {
 
   const {value } = props
 
-  let inputValue = ''
 
 
 
-  const handleChange = (value , inputValue) => {
-    console.log(value)
-    console.log(inputValue)
+
+  const handleChange = (e) => {
+    console.log(e.target.value)
+    
   }
 
 
 
   return (
     <div>
-        <input onChange={handleChange} >{inputValue}</input>
+        <input onChange={handleChange} value={value}></input>
     </div>
   )
 }

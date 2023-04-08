@@ -8,7 +8,11 @@ export default function Button(props) {
 
   const handleClick = (e) => {
     const val = e.target.value
-    console.log(val)
+    setValue(
+      value = val
+    )
+
+    
   }
 
   
