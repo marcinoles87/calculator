@@ -16,7 +16,7 @@ function App() {
   }
 
   console.log(value)
-  console.log(plus)
+
 
   return (
     <div className="App">

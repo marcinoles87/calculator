@@ -12,12 +12,6 @@ export default function Button(props) {
       value = val
     )
 
-    setPlus(
-      console.log('sss')
-
-    )
-
-    
   }
 
   
