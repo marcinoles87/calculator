@@ -7,9 +7,16 @@ function App() {
 
   let [value , setValue] = useState()
 
- 
+  let [plus , setAdd] = useState()
+
+  const setPlus = () => {
+    setAdd({
+      plus : value
+  })
+  }
 
   console.log(value)
+  console.log(plus)
 
   return (
     <div className="App">
