@@ -11,7 +11,7 @@ function App() {
 
   const setPlus = () => {
     setAdd({
-      plus : value
+      plus : plus
   })
   }
 
