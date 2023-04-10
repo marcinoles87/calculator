@@ -18,13 +18,18 @@ function App() {
   }
 
 
+  const setInputValue = (val) => {
+    setValue(
+      value = value + val
+    )
+  }
 
 
   return (
     <div className="App">
       <h1>MRC CALCULATOR</h1>
-      <Input value={value}></Input>
-      <Button value={1} setValue={setValue}></Button>
+      <Input value={value} setInputValue={setInputValue}></Input>
+      <Button value={1} setValue={setInputValue}></Button>
       <Button value={2} setValue={setValue}></Button>
       <Button value={3} setValue={setValue}></Button>
       <Button value={'+'} setValue={setValue} setPlus={setPlus}></Button>
