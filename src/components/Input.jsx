@@ -8,7 +8,8 @@ export default function Input(props) {
 
   const handleChange = (e) => {
     let a = e.target.value
-    a++
+    let suma= a
+    console.log(suma)
 
   }
 
