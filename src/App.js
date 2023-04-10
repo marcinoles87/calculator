@@ -30,17 +30,17 @@ function App() {
       <h1>MRC CALCULATOR</h1>
       <Input value={value} setInputValue={setInputValue}></Input>
       <Button value={1} setValue={setInputValue}></Button>
-      <Button value={2} setValue={setValue}></Button>
-      <Button value={3} setValue={setValue}></Button>
+      <Button value={2} setValue={setInputValue}></Button>
+      <Button value={3} setValue={setInputValue}></Button>
       <Button value={'+'} setValue={setValue} setPlus={setPlus}></Button>
-      <Button value={4} setValue={setValue}></Button>
-      <Button value={5} setValue={setValue}></Button>
-      <Button value={6} setValue={setValue}></Button>
+      <Button value={4} setValue={setInputValue}></Button>
+      <Button value={5} setValue={setInputValue}></Button>
+      <Button value={6} setValue={setInputValue}></Button>
       <Button value={'-'} setValue={setValue}></Button>
-      <Button value={7} setValue={setValue}></Button>
-      <Button value={8} setValue={setValue}></Button>
-      <Button value={9} setValue={setValue}></Button>
-      <Button value={0} setValue={setValue}></Button>
+      <Button value={7} setValue={setInputValue}></Button>
+      <Button value={8} setValue={setInputValue}></Button>
+      <Button value={9} setValue={setInputValue}></Button>
+      <Button value={0} setValue={setInputValue}></Button>
      
       
     </div>
