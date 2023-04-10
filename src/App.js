@@ -9,13 +9,15 @@ function App() {
 
   let [plus , setAdd] = useState()
 
-  const setPlus = () => {
+  const setPlus = (e) => {
+
+    console.log(e.target.value)
     setAdd({
-      plus : ++plus
+      plus : ++e.target.value
   })
   }
 
-  console.log(value)
+
 
 
   return (
