@@ -30,6 +30,10 @@ function App() {
     )
   }
 
+  const setAddValue = () => {
+    console.log(parseInt(value))
+  }
+
 
   return (
     <div className="App">
@@ -47,7 +51,8 @@ function App() {
       <Button value={8} setValue={setInputValue}></Button>
       <Button value={9} setValue={setInputValue}></Button>
       <Button value={0} setValue={setInputValue}></Button>
-      <Button value={'C'} setValue={setInputClear}></Button>
+      <Button value={'c'} setValue={setInputClear}></Button>
+      <Button value={'='} setValue={setAddValue}></Button>
      
       
     </div>
