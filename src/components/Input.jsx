@@ -21,8 +21,9 @@ export default function Input(props) {
 
 
   const setInputValue = (e) => {
-    
+    console.log(e.target.value)
     return e.target.value
+    
   }
 
   console.log(value)

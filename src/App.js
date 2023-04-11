@@ -24,6 +24,12 @@ function App() {
     )
   }
 
+  const setInputClear = () => {
+    setValue (
+      value = ''
+    )
+  }
+
 
   return (
     <div className="App">
@@ -32,15 +38,16 @@ function App() {
       <Button value={1} setValue={setInputValue}></Button>
       <Button value={2} setValue={setInputValue}></Button>
       <Button value={3} setValue={setInputValue}></Button>
-      <Button value={'+'} setValue={setValue} setPlus={setPlus}></Button>
+      <Button value={'+'} setValue={setInputValue}></Button>
       <Button value={4} setValue={setInputValue}></Button>
       <Button value={5} setValue={setInputValue}></Button>
       <Button value={6} setValue={setInputValue}></Button>
-      <Button value={'-'} setValue={setValue}></Button>
+      <Button value={'-'} setValue={setInputValue}></Button>
       <Button value={7} setValue={setInputValue}></Button>
       <Button value={8} setValue={setInputValue}></Button>
       <Button value={9} setValue={setInputValue}></Button>
       <Button value={0} setValue={setInputValue}></Button>
+      <Button value={'C'} setValue={setInputClear}></Button>
      
       
     </div>
