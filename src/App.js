@@ -47,7 +47,7 @@ function App() {
     )
 
     setInputValue(
-      suma
+      value = suma
     )
         console.log(suma)
   }
