@@ -21,9 +21,13 @@ function App() {
 
 
   const setInputValue = (val) => {
+    console.log(val)
     setValue(
       value = value + val
     )
+
+    console.log(value)
+    
   }
 
   const setInputClear = () => {
@@ -33,13 +37,23 @@ function App() {
   }
 
   const setSum = () => {
+    console.log(value)
+    let number = parseInt(value)
+    console.log(number)
     setSuma(
-      suma = parseFloat(value)
+
+      suma = number+number
       
     )
 
-    console.log(parseFloat(suma))
+    setInputValue(
+      suma
+    )
+        console.log(suma)
   }
+
+  
+ 
 
 
 

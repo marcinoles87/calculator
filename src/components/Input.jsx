@@ -13,8 +13,6 @@ export default function Input(props) {
     let b = value
     b = parseInt(value)
 
-   
-
 
   }
 
@@ -26,7 +24,7 @@ export default function Input(props) {
     
   }
 
-  console.log(value)
+ 
 
   
 
