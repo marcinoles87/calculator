@@ -5,9 +5,11 @@ import Input from './components/Input';
 
 function App() {
 
-  let [value , setValue] = useState('')
+  let [value , setValue] = useState(0)
 
   let [plus , setAdd] = useState('')
+
+  let [suma , setSuma] = useState(0)
 
   const setPlus = (e) => {
 
@@ -30,9 +32,16 @@ function App() {
     )
   }
 
-  const setAddValue = () => {
-    console.log(parseInt(value))
+  const setSum = () => {
+    setSuma(
+      suma = parseFloat(value)
+      
+    )
+
+    console.log(parseFloat(suma))
   }
+
+
 
 
   return (
@@ -52,7 +61,7 @@ function App() {
       <Button value={9} setValue={setInputValue}></Button>
       <Button value={0} setValue={setInputValue}></Button>
       <Button value={'c'} setValue={setInputClear}></Button>
-      <Button value={'='} setValue={setAddValue}></Button>
+      <Button value={'='} setValue={setSum}></Button>
      
       
     </div>
