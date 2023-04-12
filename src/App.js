@@ -3,6 +3,8 @@ import './App.css';
 import Button from './components/Button';
 import Input from './components/Input';
 
+import * as math from 'mathjs'
+
 function App() {
 
   let [value , setValue] = useState(0)
@@ -23,27 +25,34 @@ function App() {
   const setInputValue = (val) => {
     console.log(val)
     setValue(
-      value = value + val
+       value + val
     )
-
-    console.log(value)
     
+    console.log(value)
   }
 
   const setInputClear = () => {
     setValue (
       value = ''
     )
+
+    setSuma (
+      suma = ''
+    )
   }
 
   const setSum = () => {
-    
-    let number = parseInt(value)
-    console.log(number)
-    setSuma(
+    setInputValue(
+      value = math.evaluate(value)
+    )
 
-      suma = number+number
-      
+
+    setSuma(
+      suma =  `wynik dzialania to : ` + value
+    )
+
+    setInputValue(
+      value = ''
     )
 
        
