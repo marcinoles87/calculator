@@ -5,9 +5,9 @@ import Input from './components/Input';
 
 function App() {
 
-  let [value , setValue] = useState()
+  let [value , setValue] = useState('')
 
-  let [plus , setAdd] = useState()
+  let [plus , setAdd] = useState('')
 
   const setPlus = (e) => {
 
