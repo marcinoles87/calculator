@@ -37,7 +37,7 @@ function App() {
   }
 
   const setSum = () => {
-    console.log(value)
+    
     let number = parseInt(value)
     console.log(number)
     setSuma(
@@ -46,10 +46,7 @@ function App() {
       
     )
 
-    setInputValue(
-      value = suma
-    )
-        console.log(suma)
+       
   }
 
   
@@ -62,6 +59,7 @@ function App() {
     <div className="App">
       <h1>MRC CALCULATOR</h1>
       <Input value={value} setInputValue={setInputValue}></Input>
+      <Input value={suma} setInputValue={setSum}></Input>
       <Button value={1} setValue={setInputValue}></Button>
       <Button value={2} setValue={setInputValue}></Button>
       <Button value={3} setValue={setInputValue}></Button>
