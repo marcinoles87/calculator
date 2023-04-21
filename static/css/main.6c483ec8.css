@@ -1,0 +1,2 @@
+.App{align-items:center;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;margin:50px;width:600px}button{background-color:#ffcc6f;color:#fff;font-size:30px;height:130px;margin:1px;transition:.5s ease;width:145px}button,button:hover{border:1px solid #ffa600}button:hover{background-color:#cb9634;color:#111;font-size:40px}input{background-color:#000;color:#fff;font-size:30px;height:50px;width:600px}input:hover{background-color:#94fc94}
+/*# sourceMappingURL=main.6c483ec8.css.map*/
